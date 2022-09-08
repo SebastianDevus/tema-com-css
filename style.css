@@ -1,14 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 body {
+    background: linear-gradient(107deg, #353535 0%, #171818 100%);
+    color: white;
 }
 
 main#container {
+    background-color: #38393C;
+
+    border-right: 5px outset gray;
+    border-bottom: 5px outset #7c7c7c;
+    
 }
 
 h1.titulo {
+    background-color: #545455;
+    color: #e2e255;
+
+    text-decoration: underline;
+
+    margin-left: 5%;
+    margin-right: 5%;
+
+    border-right: 3px outset #979595;
+    border-bottom: 3px outset #8a8888; 
 }
 
 p.frase {
+    background-color: #4b4a4a;
+    color: #dadada;
+
+    font-size: 1.5em;
+    font-family: 'Lobster', cursive;
+
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    border: outset #868686;
+    border-top: none;
+    border-left: none;   
 }
 
 p.autor {
+    background-color: #727272;
+    color: rgb(255, 189, 66);
+
+    font-style: italic;
+
+    margin-right: 2.5%;
+    margin-left: 60%;
+
+    border: outset #a3a3a3;
+    border-top: none;
+    border-left: none;
 }
