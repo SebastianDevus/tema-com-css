@@ -8,8 +8,8 @@ body {
 main#container {
     background-color: #38393C;
 
-    border-right: 5px outset gray;
-    border-bottom: 5px outset #7c7c7c;
+    border-right: 5px outset rgb(124, 124, 124);
+    border-bottom: 5px outset #727272;
     
 }
 
