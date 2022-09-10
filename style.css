@@ -1,20 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 body {
-    background: linear-gradient(107deg, #353535 0%, #171818 100%);
+    /* background: linear-gradient(107deg, #353535 0%, #171818 100%); */
+    background: linear-gradient(90deg, rgba(27,1,62,1) 0%, rgba(85,10,115,1) 50%, rgba(17,10,64,1) 100%);
     color: white;
 }
 
 main#container {
-    background-color: #38393C;
+    background-color: #17044d;
 
-    border-right: 5px outset rgb(124, 124, 124);
-    border-bottom: 5px outset #727272;
-    
+    border: solid 3px #3807be;
 }
 
 h1.titulo {
-    background-color: #545455;
+    background-color: #0a0a8a;
     color: #e2e255;
 
     text-decoration: underline;
@@ -22,12 +21,11 @@ h1.titulo {
     margin-left: 5%;
     margin-right: 5%;
 
-    border-right: 3px outset #979595;
-    border-bottom: 3px outset #8a8888; 
+    border: solid 2px #3303b9;
 }
 
 p.frase {
-    background-color: #4b4a4a;
+    background-color: #361492;
     color: #dadada;
 
     font-size: 1.5em;
@@ -36,13 +34,11 @@ p.frase {
     margin-left: 5%;
     margin-right: 5%;
     
-    border: outset #868686;
-    border-top: none;
-    border-left: none;   
+    border: solid 1px #0414ff;
 }
 
 p.autor {
-    background-color: #727272;
+    background-color: #3a217e;
     color: rgb(255, 189, 66);
 
     font-style: italic;
@@ -50,7 +46,5 @@ p.autor {
     margin-right: 2.5%;
     margin-left: 60%;
 
-    border: outset #a3a3a3;
-    border-top: none;
-    border-left: none;
+    border: solid 1px #7052c5;
 }
